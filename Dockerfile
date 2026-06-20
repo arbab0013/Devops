@@ -4,7 +4,7 @@ WORKDIR /app
  
 COPY package*.json ./
  
-RUN ntm install
+RUN npm install
  
 COPY . .
  
